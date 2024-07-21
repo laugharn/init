@@ -1,7 +1,5 @@
-export default function Home() {
-  return (
-    <main>
-      <div>Hello world!</div>
-    </main>
-  );
+function Page() {
+  return <main>init</main>
 }
+
+export default Page
