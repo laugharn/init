@@ -4,8 +4,16 @@ export function chunk(arr: any[], size: number) {
   )
 }
 
+export function ensureStartsWith(stringToCheck: string, startsWith: string) {
+  return stringToCheck.startsWith(startsWith) ? stringToCheck : `${startsWith}${stringToCheck}`
+}
+
 export function intersection(a: any[], b: any[]) {
   return a.filter((x) => b.includes(x))
+}
+
+export function isObject(object: unknown): object is Record<string, unknown> {
+  return typeof object === 'object' && object !== null && !Array.isArray(object)
 }
 
 export function last(arr: any[]) {
