@@ -4,14 +4,10 @@ init is a companion to Vercel's create-next-app that allows me to get started wi
 
 ## Up and running
 
-To start using init, simply run `pnpx create-next-app <project-directory> -e https://github.com/laugharn/init` and let create-next-app handle everything from there.
+To start using init, simply run `pnpx create-next-app <project-directory> -e https://github.com/laugharn/init` and create-next-app handles the provisioning. Then you can use `pnpm -C sites/main run dev` to get a site going at https://localhost:3000
 
 ## The why of init
 
 - init lives on the frontier
 - init organizes
 - init uses TypeScript but not too much
-
-## Roadmap
-
-- [ ] Branch pattern

@@ -1,0 +1,42 @@
+{
+  "browserslist": [
+    "> 1% in US",
+    "not dead"
+  ],
+  "dependencies": {
+    "@tailwindcss/postcss": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@typescript-eslint/eslint-plugin": "8.4.0",
+    "@typescript-eslint/parser": "8.4.0",
+    "babel-plugin-react-compiler": "catalog:",
+    "eslint": "catalog:",
+    "eslint-config-next": "catalog:",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-jsx-a11y": "6.9.0",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "next": "catalog:",
+    "postcss": "catalog:",
+    "prettier": "catalog:",
+    "prettier-plugin-tailwindcss": "catalog:",
+    "server-only": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:"
+  },
+  "engines": {
+    "node": "20",
+    "pnpm": "9"
+  },
+  "name": "main",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --experimental-https --turbo",
+    "dev:http": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "version": "0.1.0"
+}

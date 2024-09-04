@@ -1,42 +1,9 @@
 {
-  "browserslist": [
-    "> 1% in US",
-    "not dead"
-  ],
-  "dependencies": {
-    "@tailwindcss/postcss": "4.0.0-alpha.21",
-    "@types/node": "22.5.2",
-    "@types/react": "18.3.5",
-    "@types/react-dom": "18.3.0",
-    "@typescript-eslint/eslint-plugin": "8.4.0",
-    "@typescript-eslint/parser": "8.4.0",
-    "babel-plugin-react-compiler": "0.0.0-experimental-4e0eccf-20240830",
-    "eslint": "8.57.0",
-    "eslint-config-next": "15.0.0-canary.138",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-jsx-a11y": "6.9.0",
-    "react": "19.0.0-rc-7771d3a7-20240827",
-    "react-dom": "19.0.0-rc-7771d3a7-20240827",
-    "next": "15.0.0-canary.138",
-    "postcss": "8.4.44",
-    "prettier": "3.3.3",
-    "prettier-plugin-tailwindcss": "0.6.6",
-    "server-only": "0.0.1",
-    "tailwindcss": "4.0.0-alpha.21",
-    "typescript": "5.5.4"
-  },
   "engines": {
     "node": "20",
     "pnpm": "9"
   },
-  "name": "initial",
+  "name": "init",
   "private": true,
-  "scripts": {
-    "dev": "next dev --experimental-https --turbo",
-    "dev:http": "next dev --turbo",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "version": "0.0.2"
+  "version": "0.1.0"
 }

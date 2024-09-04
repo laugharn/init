@@ -1,0 +1,19 @@
+catalog:
+  "@tailwindcss/postcss": 4.0.0-alpha.21
+  "@types/node": 22.5.3
+  "@types/react": 18.3.5
+  "@types/react-dom": 18.3.0
+  babel-plugin-react-compiler: 0.0.0-experimental-4e0eccf-20240830
+  eslint: 8.57.0
+  eslint-config-next: 15.0.0-canary.140
+  next: 15.0.0-canary.140
+  postcss: 8.4.45
+  prettier: 3.3.3
+  prettier-plugin-tailwindcss: 0.6.6
+  react: 19.0.0-rc-7771d3a7-20240827
+  react-dom: 19.0.0-rc-7771d3a7-20240827
+  server-only: 0.0.1
+  tailwindcss: 4.0.0-alpha.21
+  typescript: 5.5.4
+packages:
+  - "sites/*"
