@@ -8,13 +8,13 @@
     "@types/node": "catalog:",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
-    "@typescript-eslint/eslint-plugin": "8.4.0",
-    "@typescript-eslint/parser": "8.4.0",
+    "@typescript-eslint/eslint-plugin": "catalog:",
+    "@typescript-eslint/parser": "catalog:",
     "babel-plugin-react-compiler": "catalog:",
     "eslint": "catalog:",
     "eslint-config-next": "catalog:",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-jsx-a11y": "6.9.0",
+    "eslint-config-prettier": "catalog:",
+    "eslint-plugin-jsx-a11y": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
     "next": "catalog:",
@@ -26,10 +26,10 @@
     "typescript": "catalog:"
   },
   "engines": {
-    "node": "20",
-    "pnpm": "9"
+    "node": "20"
   },
   "name": "main",
+  "packageManager": "pnpm@9.10.0",
   "private": true,
   "scripts": {
     "dev": "next dev --experimental-https --turbo",

@@ -1,7 +1,6 @@
 {
   "engines": {
-    "node": "20",
-    "pnpm": "9"
+    "node": "20"
   },
   "name": "init",
   "private": true,
