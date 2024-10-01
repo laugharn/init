@@ -1,6 +1,6 @@
 catalog:
   "@tailwindcss/postcss": 4.0.0-alpha.25
-  "@types/node": 20.18.10
+  "@types/node": 20.16.10
   "@types/react": 18.3.10
   "@types/react-dom": 18.3.0
   "@typescript-eslint/eslint-plugin": 8.8.0
