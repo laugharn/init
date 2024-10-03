@@ -1,23 +1,23 @@
 catalog:
-  "@tailwindcss/postcss": 4.0.0-alpha.25
+  "@tailwindcss/postcss": 4.0.0-alpha.26
   "@types/node": 20.16.10
   "@types/react": 18.3.10
   "@types/react-dom": 18.3.0
   "@typescript-eslint/eslint-plugin": 8.8.0
   "@typescript-eslint/parser": 8.8.0
-  babel-plugin-react-compiler: 0.0.0-experimental-b4db8c3-20241001
+  babel-plugin-react-compiler: 0.0.0-experimental-27e0f40-20241002
   eslint: 8.57.0
-  eslint-config-next: 15.0.0-canary.174
+  eslint-config-next: 15.0.0-canary.177
   eslint-config-prettier: 9.1.0
   eslint-plugin-jsx-a11y: 6.10.0
-  next: 15.0.0-canary.174
+  next: 15.0.0-canary.177
   postcss: 8.4.47
   prettier: 3.3.3
   prettier-plugin-tailwindcss: 0.6.8
   react: 19.0.0-rc-2d16326d-20240930
   react-dom: 19.0.0-rc-2d16326d-20240930
   server-only: 0.0.1
-  tailwindcss: 4.0.0-alpha.25
+  tailwindcss: 4.0.0-alpha.26
   typescript: 5.6.2
 packages:
   - "sites/*"
