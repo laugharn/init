@@ -1,20 +1,30 @@
-import { fileURLToPath } from 'node:url'
-import { FlatCompat } from '@eslint/eslintrc'
-import js from '@eslint/js'
-import path from 'node:path'
+import jsxA11yPlugin from 'eslint-plugin-jsx-a11y'
+import nextPlugin from '@next/eslint-plugin-next'
+import typescriptParser from '@typescript-eslint/parser'
+import typescriptPlugin from '@typescript-eslint/eslint-plugin'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
-  allConfig: js.configs.all,
-})
-
-const config = [
-  ...compat.extends('next', 'prettier', 'plugin:@typescript-eslint/recommended', 'plugin:jsx-a11y/recommended'),
+export default [
   {
+    files: ['**/*.{js,mjs,ts,tsx}'],
+    languageOptions: {
+      parser: typescriptParser,
+      parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+    },
+    plugins: {
+      '@next/next': nextPlugin,
+      '@typescript-eslint': typescriptPlugin,
+      'jsx-a11y': jsxA11yPlugin,
+    },
     rules: {
+      ...nextPlugin.configs.recommended.rules,
+      ...typescriptPlugin.configs.recommended.rules,
+      ...jsxA11yPlugin.configs.recommended.rules,
       '@typescript-eslint/ban-ts-comment': 'off',
       '@typescript-eslint/no-unused-vars': 'warn',
       'import/no-anonymous-default-export': 'off',
@@ -27,5 +37,3 @@ const config = [
     },
   },
 ]
-
-export default config
