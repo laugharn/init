@@ -4,6 +4,6 @@ export const config = {
   matcher: [],
 }
 
-export async function middleware(req: NextRequest) {
+export async function middleware(_: NextRequest) {
   return NextResponse.next()
 }
