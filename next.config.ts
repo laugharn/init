@@ -2,10 +2,9 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   experimental: {
+    cacheComponents: true,
     inlineCss: true,
-    ppr: true,
     reactCompiler: true,
-    useCache: true,
   },
 }
 
