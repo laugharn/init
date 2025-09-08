@@ -4,28 +4,28 @@
     "not dead"
   ],
   "dependencies": {
-    "@tailwindcss/postcss": "4.1.12",
-    "@types/node": "24.3.0",
-    "@types/react": "19.1.11",
-    "@types/react-dom": "19.1.7",
+    "@tailwindcss/postcss": "4.1.13",
+    "@types/node": "24.3.1",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
     "@vercel/analytics": "1.5.0",
     "@vercel/speed-insights": "1.2.0",
-    "babel-plugin-react-compiler": "19.1.0-rc.2",
+    "babel-plugin-react-compiler": "19.1.0-rc.3",
     "react": "19.1.1",
     "react-dom": "19.1.1",
-    "next": "15.5.1-canary.4",
+    "next": "15.5.1-canary.34",
     "postcss": "8.5.6",
     "prettier": "3.6.2",
     "prettier-plugin-tailwindcss": "0.6.14",
     "server-only": "0.0.1",
-    "tailwindcss": "4.1.12",
+    "tailwindcss": "4.1.13",
     "typescript": "5.9.2"
   },
   "engines": {
     "node": "22"
   },
   "name": "main",
-  "packageManager": "pnpm@10.14.0",
+  "packageManager": "pnpm@10.15.1",
   "private": true,
   "scripts": {
     "build": "next build",
