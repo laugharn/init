@@ -1,11 +1,15 @@
 'use client'
 
 import { setSession } from '@/lib/util/client'
-import { useEffect } from 'react'
+import { useEffect, useEffectEvent } from 'react'
 
 export function SessionClient() {
-  useEffect(() => {
+  const eventSetSesion = useEffectEvent(() => {
     setSession()
+  })
+
+  useEffect(() => {
+    eventSetSesion()
   }, [])
 
   return null
