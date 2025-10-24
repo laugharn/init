@@ -4,6 +4,6 @@ export const config = {
   matcher: [],
 }
 
-export async function middleware(_: NextRequest) {
+export async function proxy(_: NextRequest) {
   return NextResponse.next()
 }
