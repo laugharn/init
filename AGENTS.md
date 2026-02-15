@@ -16,3 +16,11 @@ This is an extremely modern Next.js application, using experimental features and
 - When adding a dependency, always using an exact version
 - Prefer named functions over consts when possible
 - Unless required by the framework, don't use default exports
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+## Next.js: ALWAYS read docs before coding
+
+Before any Next.js work, find and read the relevant doc in `node_modules/next/dist/docs/`. Your training data is outdated — the docs are the source of truth.
+
+<!-- END:nextjs-agent-rules -->
