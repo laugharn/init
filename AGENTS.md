@@ -1,5 +1,3 @@
-# AGENTS.md
-
 This is an extremely modern Next.js application, using experimental features and always on the latest canary release. It is a very controlled, minimal codebase.
 
 ## Organization
@@ -19,8 +17,8 @@ This is an extremely modern Next.js application, using experimental features and
 
 <!-- BEGIN:nextjs-agent-rules -->
 
-## Next.js: ALWAYS read docs before coding
+## This is NOT the Next.js you know
 
-Before any Next.js work, find and read the relevant doc in `node_modules/next/dist/docs/`. Your training data is outdated — the docs are the source of truth.
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
 
 <!-- END:nextjs-agent-rules -->
